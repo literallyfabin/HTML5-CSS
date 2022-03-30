@@ -1,0 +1,18 @@
+@charsetUTF: 8px;
+body{
+    font-family: 'Hubballi', cursive;  
+    font-weight: bolder;
+    font-size: 19px
+    /* lighter normal bold bolder */
+    /* Shorthand font (Fazer as configurações de acordo com a ordem)
+= font-style >> font-weight >> font-size >> font-family */
+
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Inspiration&display=swap');
+
+
+}
+p{
+    text-align: justify;
+    font-size: 18px;
+    font: italic lighter 16px hubballi
+}

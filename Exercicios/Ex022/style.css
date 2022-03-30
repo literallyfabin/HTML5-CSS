@@ -1,0 +1,25 @@
+@charset "UTF8";
+h1{
+    background-color: aquamarine;
+    height: 400px;
+    width: 400px;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+
+    padding-left: 10px;
+
+    margin: 50px auto;
+
+    
+}
+a{ 
+    border-color: black;
+    border-style: solid;
+
+    height: 100px;
+    width: 100px;
+
+    padding-left: 100px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinâmica.</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+        <p>Estamos aprendendo a fazer um dinamismo na imagem.</p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/300x300.jpg" type="image/jpg">
+            <source media="(max-width: 1050px )" srcset="imagens/700x700.jpg" type="image/jpg">
+            <img src="imagens/1000x1000.png" alt="Imagem flexível">
+        </picture>
+    <h1>Reproduzindo Audio no site</h1>
+        <p>Clique abaixo para reproduzir o audio</p>
+        <audio preload="metadata" autoplay src="midia/audio.mp3" controls></audio> 
+        <br>
+        <video controls width="500">
+            <source src="midia/space song - beach house (tradução-legendado) -- slowed + reverb).mp4" type="video/mp4" >
+
+        </video>
+        <h1>Inserindo video do youtube</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

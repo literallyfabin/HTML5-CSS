@@ -1,0 +1,34 @@
+@charset "UTF-8";
+body{
+    background-color: black;
+}
+div{
+    background-color: azure;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+    
+}
+    div:hover{
+        background-image: linear-gradient(90deg, black, yellow, white);
+        background-attachment: fixed;
+    }
+#d1{
+    background-color: rgba(255, 255, 255, 0.445);
+    
+}
+#d2{
+    background-color: aqua;
+    
+}
+#d3{
+    background-color: rgb(255, 0, 0);
+}
+#d4 > p{
+        display: none;
+}
+div#d4:hover > p{
+    display: block;
+    background-color: blueviolet;
+}
