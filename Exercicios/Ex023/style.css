@@ -26,3 +26,29 @@ div#q2{
 div#q3{
     background-image: url('imagens/pattern003.png');
 }
+div.bloco{
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    background-image: url(imagens/wallpaper003.jpg);
+}
+div#q12{
+    background-position: right top;
+}
+div#q23{
+    background-position: center center;
+}
+div#q34{
+    background-position: right bottom;
+}
+    
+div#q45{
+    background-position: left top;
+}
+body#imgindiv{
+    background-image: url(imagens/wallpaper003.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 98vh;
+}
