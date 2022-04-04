@@ -52,3 +52,38 @@ body#imgindiv{
     background-position: right bottom;
     height: 98vh;
 }
+body#body6{
+    height: 100vh;
+    background: gray url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    
+    
+}
+#body6 > main{
+    background-color: aqua;
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black
+}
+section#container{ 
+    position: relative;/* para fazer ele ser relativo ou seja, submisso ao conteudo*/
+    height: 96vh;
+    background-color: blue;
+    padding: 10px;
+
+
+
+}
+article#conteudo{
+    position: absolute; /* para fazer ele ser absoluto ao relativo que é o filho*/
+    height: 100px;
+    background-color: red;
+    width: 400px;
+
+    left: 50%;
+    top: 50%;
+    
+    transform: translate(-50%, -50%);
+}
