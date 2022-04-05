@@ -1,0 +1,13 @@
+@charset "utf-8";
+section{
+    background-color: aqua;
+    width: 450px;
+    height: 400px;
+    padding: 10px;
+}
+article{
+    
+    background-color: black;
+    width: 150px;
+    height: 200px;
+}

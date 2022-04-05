@@ -1,0 +1,59 @@
+@charset "utf-8";
+body{
+    margin: 0%;
+}
+
+header{
+    width: 98,5%;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+
+    padding: 10px;
+}
+header > h1{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.966);
+    font-family: 'Passion One', cursive;
+    font-size: 70px;
+    margin: 19px;
+}
+header > h2{
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    color: rgba(255, 255, 255, 0.671);
+
+}
+a{
+    color: rgba(255, 255, 255, 0.925);
+    text-decoration: none;
+}
+article > p{
+    width: 200px;
+    text-align: left;
+    padding: 40px;
+    
+    font-size: 30px;
+    font-family: 'Sriracha', cursive;
+}
+article#flor{
+    height: 500px;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    max-width: 98,5%;
+    background-repeat: no-repeat;
+}
+article#flor > p{
+    font-size: 25px;
+    color: white;
+
+    border: 10px rgba(0, 0, 0, 0.596);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 300px;
+    padding: 31px 10px 10px 12px;
+    margin: 50px;
+    height: 300px;
+}
