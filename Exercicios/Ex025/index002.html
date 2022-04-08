@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas exercícios</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 500px;
+            height: 50px;
+        }
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+       td.num{
+           text-align: right;
+       }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>Estados</th>
+            <th>População</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São paulo</td>
+                <td class="num">32 123 542 234</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">123 812 1235</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">123 19123 129319231</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>
+                    Total de habitantes
+                </th>
+                <td>00000000</td>
+            </tr>
+
+        </tfoot>
+
+
+
+    </table>
+</body>
+</html>
