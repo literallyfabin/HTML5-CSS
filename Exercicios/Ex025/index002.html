@@ -24,13 +24,28 @@
        td.num{
            text-align: right;
        }
+       caption{
+           font-size: 25px;
+           font-weight: bold;
+           font-family: Arial, Helvetica, sans-serif;
+           background-color: lightgray;
+           padding: 10px;
+       }
+       tbody > tr:nth-child(2n){
+           background-color: rgb(83, 82, 82);
+
+       }
     </style>
 </head>
 <body>
     <table>
+        <caption>
+            Unidades Federativas do Brasil
+
+        </caption>
         <thead>
-            <th>Estados</th>
-            <th>População</th>
+            <th scope="col">Estados</th>
+            <th scope="col" style="width: 150px;">População</th>
         </thead>
 
         <tbody>
@@ -46,11 +61,15 @@
                 <td>Paraíba</td>
                 <td class="num">123 19123 129319231</td>
             </tr>
+            <tr>
+                <td>Amapá</td>
+                <td>123123123</td>
+            </tr>
         </tbody>
 
         <tfoot>
             <tr>
-                <th>
+                <th scope="row">
                     Total de habitantes
                 </th>
                 <td class="num">00000000</td>
