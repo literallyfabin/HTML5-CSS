@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coluna sozinho</title>
+</head>
+<style>
+    table{
+        width: 250px;
+        height: 200px;
+    }
+    td{
+        border: 1px solid black;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    td#a{
+        border-collapse: collapse;
+    }
+    tdaqi{
+        border-collapse: collapse;
+    }
+ 
+</style>
+<body>
+    <table>
+        <tr>
+            <td rowspan="5">a</td>
+            <td colspan="3">b</td>
+           
+            
+        </tr>
+        <tr>
+            <td>e</td>
+            <td>f</td>
+            <td>g</td>
+            <td rowspan="3" id="a">h</td>
+
+        </tr>
+
+        <tr>
+            <td>i</td>
+            <td>k</td>
+            <td>l</td>
+            
+        </tr>
+
+        <tr>
+            <td>m</td>
+            <td>n</td>
+            <td>o</td>
+            
+        </tr>
+
+        <tr>
+            <td colspan="4">q</td>
+            
+            
+        </tr>
+    </table>
+    
+</body>
+</html>
